@@ -1,0 +1,77 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    min-height: 4rem;
+    background-color: rgb(255, 119, 0);
+    margin-bottom: 0px;
+}
+header svg{
+    cursor: pointer;
+}
+header img{
+    width:3rem;
+    cursor: pointer;
+}
+header nav:hover{
+background-color: #ff5900;
+}
+header nav{
+    flex-basis:2rem;
+    color:rgb(102, 46, 6);
+    font-size: 1.5rem;
+    padding:1rem 4rem;
+}
+header nav:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:rgb(131, 77, 20);
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    flex-basis:2rem;
+    color:rgb(102, 46, 6);
+    padding:1rem 4rem;  
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #c94701;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffd900;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(225, 78, 11);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

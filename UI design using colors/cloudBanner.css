@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height:60rem;
-    background: url(anneWithAnE.jpg);
+    background: url('anne.png');
     background-size: cover;
     background-position: bottom;
 }

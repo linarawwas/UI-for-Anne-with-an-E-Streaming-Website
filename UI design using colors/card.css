@@ -1,11 +1,13 @@
 .cardFlex{
     display: flex;
     flex-flow: row wrap;
-    margin-top:-20rem;
+    margin-top:-14vw;
     padding:0;
+    margin-bottom: 10vw;
 }
 .cardBody{
     margin:2rem;
+    flex-basis: 10rem;
 }
 .container{
     position:relative;
@@ -71,7 +73,6 @@
     position: relative;
     font-weight: 600;
     letter-spacing: 1px;
-    /* color:#fff; */
     }
 .container .card .contentBx{
     position: absolute;

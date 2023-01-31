@@ -4,37 +4,41 @@ header{
     justify-content: space-around;
     align-items: center;
     width:100%;
-    min-height: 4rem;
+    min-height: 5rem;
     background-color: rgb(255, 119, 0);
     margin-bottom: 0px;
+    padding: 0%;
 }
 header svg{
     cursor: pointer;
 }
-header img{
-    width:3rem;
-    cursor: pointer;
-}
-header nav:hover{
+header nav:hover, header img:hover{ 
 background-color: #ff5900;
-}
-header nav{
-    flex-basis:2rem;
-    color:rgb(102, 46, 6);
-    font-size: 1.5rem;
-    padding:1rem 4rem;
-}
-header nav:hover{
     text-decoration: underline;
     cursor: pointer;
-    color:rgb(131, 77, 20);
 }
+header nav{
+    color:rgb(102, 46, 6);
+    font-size: 1.5rem;
+    padding:1.5rem 4rem;  
+    border: none;
+    outline: none;
+    margin: 0;
+    height: 100%;
+}
+header img{
+  flex-basis:15rem;
+  padding:1.5rem 4rem;
+  width: 10%;
+}
+
 .dropdown {
     float: left;
     overflow: hidden;
   }
   
   .dropdown .dropbtn {
+    display: block;
     font-size: 1.5rem;
     border: none;
     outline: none;
@@ -46,9 +50,6 @@ header nav:hover{
     margin: 0;
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #c94701;
-}
   
   .dropdown-content {
     display: none;
